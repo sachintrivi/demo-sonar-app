@@ -1,0 +1,20 @@
+# 1. Create project folder (if not already created)
+mkdir maven-sonar-sample
+cd maven-sonar-sample
+
+# 2. Initialize a Git repo
+git init
+
+# 3. Add some basic file (just so it's not empty)
+echo "# Maven Sonar Sample" > README.md
+git add README.md
+git commit -m "Initial commit"
+
+# 4. Set branch to main (GitHub's default)
+git branch -M main
+
+# 5. Add your GitHub repo as remote origin
+git remote add origin https://github.com/Kanakma22/maven-sonar-sample.git
+
+# 6. Push the files to GitHub
+git push -u origin main

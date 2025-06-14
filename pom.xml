@@ -1,0 +1,3 @@
+git add .
+git commit -m "Added basic Maven project for Sonar scan"
+git push
